@@ -1,0 +1,99 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50; /* Fondo verde */
+    text-align: center; /* Centrado del texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+header h1 {
+    color: white; /* Color del texto en blanco */
+    font-size: 2.5em; /* Tamaño grande */
+    margin: 0;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    margin-bottom: 20px; /* Espacio debajo */
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar puntos de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrado de los enlaces */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* Fondo verde al pasar el ratón */
+    color: black; /* Color del texto negro al pasar el ratón */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+section p, section ul, section ol {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Imágenes dentro de las secciones */
+section img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para los contenedores de la sección */
+section div {
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Color del texto blanco */
+    text-align: center; /* Centrado del texto */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
